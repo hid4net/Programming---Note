@@ -1,3 +1,4 @@
+<h1 style="text-align:center">GCC/LLVM 笔记</h1>
 
 --------------------------------------------------------------------------------
 # 1. 安装
@@ -5,7 +6,7 @@
 ## 1.1. LLVM
 * 安装
     * windows: 下载 [LLVM-MinGW](https://github.com/mstorsjo/llvm-mingw/releases), 解压, 并设置环境变量 `Path = %llvm-mingw%\bin;`
-        * 下载哪个版本: 一般格式为 `llvm-mingw-<版本>-ucrt-x86_64.zip`, 如 `llvm-mingw-20220323-ucrt-x86_64.zip`, 其中
+        * 下载哪个版本? 一般格式为 `llvm-mingw-<版本>-ucrt-x86_64.zip`, 如 `llvm-mingw-20220323-ucrt-x86_64.zip`, 其中
             * `ucrt`: Universal CRT
             * `x86_64`: 64 位版本
 * 查看版本
@@ -30,6 +31,7 @@
     gdb -v
     ```
 
+--------------------------------------------------------------------------------
 # 2. 基础
 
 ## 2.1. 基本流程
