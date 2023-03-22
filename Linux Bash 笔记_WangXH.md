@@ -196,6 +196,7 @@
     ```sh
     # 示例
     echo "${0%/*}"          # 脚本所在目录
+    echo `dirname $0`       # 脚本所在目录
     STR="/path/to/foo.cpp"
     echo ${STR%.cpp}        # /path/to/foo
     echo ${STR%.cpp}.o      # /path/to/foo.o
